@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Tran Huu Nhan (Noah Tran)</h1>
 <h3 align="center">A passionate machine learning and software architecture.</h3>
 
+[![wakatime](https://wakatime.com/badge/user/5a5aced5-e390-49e3-a843-879905047aae.svg)](https://wakatime.com/@5a5aced5-e390-49e3-a843-879905047aae)
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thnhan2&label=Profile%20views&color=0e75b6&style=flat" alt="thnhan2" /> </p>
 
 - 🌱 I’m currently learning **Node.js, AWS and micro-services**
@@ -23,4 +25,8 @@
 
 <h3 align="left">Languages and Tools:</h3>
   </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
-"# thnhan2" 
+
+---
+
+<figure><embed src="https://wakatime.com/share/@noahtran/cc759503-835b-4930-8cfe-bd26057ba5eb.svg"></embed></figure>
+
