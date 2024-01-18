@@ -19,7 +19,7 @@
 
 
 <!--START_SECTION:waka-->
-![Coding Time](https://wakatime.com/badge/github/noahtran/thnhan2)
+![Coding Time](https://wakatime.com/badge/github/thnhan2/thnhan2)
 <!--END_SECTION:waka-->
 
 <h3 align="left">Connect with me:</h3>
