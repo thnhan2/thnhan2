@@ -1,0 +1,30 @@
+# This workflow will compile the `HelloWorld.java` file and then run it.
+
+name: Compile and Run Java
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compile-and-run-java:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
+
+      - name: Compile Java
+        uses: actions/javac@v2
+        with:
+          args: .
+
+      - name: Run Java
+        run: |
+          echo "Running Java..."
+          java HelloWorld
