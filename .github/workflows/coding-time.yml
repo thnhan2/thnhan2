@@ -1,27 +1,17 @@
-name: Update Coding Time
+name: Coding stata
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    # Runs every 3 hours
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-coding-time:
+  update-readme:
+    name: update
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4  # Thay đổi từ v3 sang v4
+      - uses: athul/waka-readme@master
         with:
-          node-version: 16  # Sử dụng Node.js 16 thay vì Node.js 14
-
-      - name: Install Dependencies
-        run: npm install -g wakatime-cli
-
-      - name: Update Coding Time
-        run: wakatime --write
-        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
