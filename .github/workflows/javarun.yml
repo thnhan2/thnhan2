@@ -27,4 +27,5 @@ jobs:
       - name: Run Java
         run: |
           echo "Running Java..."
+          javac HelloWorld.java
           java HelloWorld
