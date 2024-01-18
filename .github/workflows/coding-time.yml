@@ -16,10 +16,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16  # Sử dụng Node.js 16 thay vì Node.js 14
 
       - name: Install Dependencies
         run: npm install -g wakatime-cli
 
       - name: Update Coding Time
         run: wakatime --write
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
