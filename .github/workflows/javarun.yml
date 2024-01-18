@@ -16,9 +16,10 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
+          distribution: AdoptOpenJDK  # Chỉ định bản phân phối cụ thể
 
       - name: Compile Java
-        run: javac HelloWorld.java  # Chỉ cần biên dịch ở đây
+        run: javac HelloWorld.java
 
       - name: Run Java
-        run: java HelloWorld  # Không cần biên dịch lại
+        run: java HelloWorld
