@@ -28,5 +28,4 @@
 
 ---
 
-<figure><embed src="https://wakatime.com/share/@noahtran/cc759503-835b-4930-8cfe-bd26057ba5eb.svg"></embed></figure>
-
+<figure><embed src="https://wakatime.com/share/@noahtran/25a2f936-6888-41b1-8b33-ee8f3e80e35e.svg"></embed></figure>
