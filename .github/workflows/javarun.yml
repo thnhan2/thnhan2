@@ -1,5 +1,3 @@
-# This workflow will compile the `HelloWorld.java` file and then run it.
-
 name: Compile and Run Java
 
 on:
@@ -20,12 +18,7 @@ jobs:
           java-version: 11
 
       - name: Compile Java
-        uses: actions/javac@v2
-        with:
-          args: .
+        run: javac HelloWorld.java  # Chỉ cần biên dịch ở đây
 
       - name: Run Java
-        run: |
-          echo "Running Java..."
-          javac HelloWorld.java
-          java HelloWorld
+        run: java HelloWorld  # Không cần biên dịch lại
