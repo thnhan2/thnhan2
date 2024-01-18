@@ -1,1 +1,1 @@
-<img src="https://github.com/thnhan2/thnhan2/blob/master/images/codeStats.svg" alt="Alternative Text"/>
+[![Wakatime](https://wakatime.com/badge/github/thnhan2/thnhan2.svg)](https://wakatime.com/badge/github/thnhan2/thnhan2)
