@@ -1,0 +1,19 @@
+name: Wakatime
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  wakatime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install wakatime
+        run: npm install wakatime
+      - name: Get wakatime data
+        run: wakatime --lines
+      - name: Update time tracking
+        run: wakatime update
