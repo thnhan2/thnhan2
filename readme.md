@@ -16,7 +16,11 @@
 - 📫 How to reach me **nhamn1001@gmail.com**
 
 - ⚡ Fun fact **I love programming used to first time I learn Pascal**
+
+
+<!--START_SECTION:waka-->
 ![Coding Time](https://wakatime.com/badge/github/noahtran/thnhan2)
+<!--END_SECTION:waka-->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
