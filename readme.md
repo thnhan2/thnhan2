@@ -16,7 +16,7 @@
 - 📫 How to reach me **nhamn1001@gmail.com**
 
 - ⚡ Fun fact **I love programming used to first time I learn Pascal**
-  <img src="https://github.com/thnhan2>/thnhan2/blob/master/images/codeStats.svg" alt="My coding activity"/>
+  <img src="https://github.com/thnhan2/thnhan2/blob/master/images/codeStats.svg" alt="My coding activity"/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
