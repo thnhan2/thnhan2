@@ -1,17 +1,19 @@
-name: Coding stata
-
+name: Cập nhật thống kê lập trình từ WakaTime
 on:
   schedule:
-    # Runs every 3 hours
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Sẽ chạy vào 12 giờ đêm hàng ngày. Bạn có thể thay đổi theo nhu cầu của mình
 
 jobs:
   update-readme:
-    name: update
+    name: Tự động cập nhật README với thống kê lập trình mới nhất
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Cập nhật thống kê lập trình
+        uses: tariksahni/coding-stats-wakatime@v1.0.0
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
+          SHOW_MONTHLY: true
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_ACTION: ${{ github.action }}
